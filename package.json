@@ -1,0 +1,13 @@
+{
+  "name": "shipnarip-bot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Chat-only Telegram bot for Ship n' a Rip",
+  "workspaces": [
+    "worker-bot"
+  ],
+  "scripts": {
+    "dev": "echo Use wrangler dev inside worker-bot",
+    "deploy": "echo Use wrangler deploy inside worker-bot"
+  }
+}
